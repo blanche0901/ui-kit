@@ -1,0 +1,36 @@
+.banner {
+    /* 1. Set a background image */
+    background-image: url(/images/image.jpg);
+    /* 2. Make the background image cover the banner div */
+    background-size: cover;
+    /* 3. Center the image */
+    background-position: center;
+    border-radius: 0px 0px 20px 20px;
+    height: 400px;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.banner h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    opacity: 0.8;
+}
+
+.banner .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner .container h1,
+.banner .container h2,
+.banner .container .bouton {
+    margin: 0;
+}
